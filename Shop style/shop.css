@@ -1,0 +1,47 @@
+/* shear common style */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.btn-primary {
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0px;
+}
+
+/* header style */
+.header {
+    display: flex;
+    background: #E554731A;
+    padding: 0px 240px;
+}
+.header-nav{
+    gap: 100px;
+    justify-content: space-between;
+}
+
+.header-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.header-paragraph {
+    color: rgba;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.header-pic {
+    width: 635px;
+    height: 800px;
+    background-position: bottom right;
+}
