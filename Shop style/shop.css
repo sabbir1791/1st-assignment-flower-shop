@@ -214,3 +214,7 @@ input[type=email] {
     font-size: 16px;
     font-weight: 400;
 }
+.social-links a{
+        margin: 10px;
+        padding: 10px;
+}
