@@ -20,11 +20,16 @@ body {
 .header {
     display: flex;
     background: #E554731A;
-    padding: 0px 240px;
+    padding: 100px 150px 100px;
 }
-.header-nav{
+
+.header-pic {
+    padding-bottom: none;
+}
+
+.header-div {
     gap: 100px;
-    justify-content: space-between;
+
 }
 
 .header-title {
@@ -40,8 +45,49 @@ body {
     line-height: 30px;
 }
 
-.header-pic {
-    width: 635px;
-    height: 800px;
-    background-position: bottom right;
+
+/*main style*/
+.section-heading {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.section-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-description {
+    color: rgba;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.flower-section {
+    display: flex;
+    gap: 25px;
+    padding:15px;
+}
+
+.png1 {
+    border-radius: 300px 300px 0px 0px;
+    background: #A7216226;
+    width: 464px;
+    height: 538px;
+}
+
+.png2 {
+    border-radius: 300px 300px 0px 0px;
+    background-color: #0597A026;
+    width: 464px;
+    height: 538px;
+}
+
+.png3 {
+    border-radius: 300px 300px 0px 0px;
+    background-color: #477D1126;
+    width: 464px;
+    height: 538px;
 }
