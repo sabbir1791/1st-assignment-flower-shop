@@ -6,7 +6,6 @@ body {
 .btn-primary {
     display: inline-flex;
     padding: 20px 43px;
-    align-items: flex-start;
     gap: 10px;
     border-radius: 8px;
     background: #E55473;
@@ -24,8 +23,9 @@ body {
 .header {
     display: flex;
     background: #E554731A;
-    padding: 100px 150px 100px;
+    padding: 30px 30px 0px 150px;;
     justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -70,7 +70,7 @@ body {
 .flower-section {
     display: flex;
     gap: 25px;
-    padding: 15px;
+    padding: 30px;
 }
 
 .png1 {
@@ -78,6 +78,7 @@ body {
     background: #A7216226;
     width: 464px;
     height: 538px;
+    
 }
 
 .png2 {
@@ -105,6 +106,8 @@ body {
     display: flex;
     background: #E554730D;
     padding: 150px;
+    gap: 200px;
+    text-align: center;
 
 }
 
@@ -149,13 +152,9 @@ body {
 .letest-del {
     background: url('../Flower Asset/Rectangle\ 9.png');
     background-repeat: no-repeat;
-    position: relative;
-    text-align: center;
-    padding: 120px 290px;
-    margin-top: 128;
-    margin-bottom: 128;
-    margin-left: 250;
-    margin-right: 250;
+    padding: 100px 100px;
+    align-items: center;
+    
 }
 
 .letest-del-title {
@@ -173,11 +172,45 @@ body {
     line-height: 30px;
 }
 
-.input input[type=email] {
-    display: flex;
+input[type=email] {
     border-radius: 8px;
     background: #FFFF;
     padding: 22px 200px 22px 22px;
-    border: 0px; 
+    border: 0px;
+}
+.input{
+    display: flex;
+    gap: 10px;
+    background-position: 50%;
+    
+}
+.Subscribe{
+    padding: 20px 43px;
+    gap: 5px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0px;
 }
 
+.footer {
+    background: #111010;
+    text-align: center;
+    padding: 130px 350px;
+}
+
+.footer-description {
+    color: #FFFFFFE5;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.footer-caption {
+    color: #FFFFFF66;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
