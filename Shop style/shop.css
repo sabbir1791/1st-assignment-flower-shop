@@ -16,16 +16,18 @@ body {
     border: 0px;
 }
 
+.prymary-color {
+    color: #E55473;
+}
+
 /* header style */
 .header {
     display: flex;
     background: #E554731A;
     padding: 100px 150px 100px;
+    justify-content: space-between;
 }
 
-.header-pic {
-    padding-bottom: none;
-}
 
 .header-div {
     gap: 100px;
@@ -68,7 +70,7 @@ body {
 .flower-section {
     display: flex;
     gap: 25px;
-    padding:15px;
+    padding: 15px;
 }
 
 .png1 {
@@ -91,3 +93,91 @@ body {
     width: 464px;
     height: 538px;
 }
+
+.flower-caption,
+.colum {
+    color: #272727;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.hot-del-section {
+    display: flex;
+    background: #E554730D;
+    padding: 150px;
+
+}
+
+.hot-description {
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.hot-del-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+/* instra */
+.instra-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instra-description {
+    color: #27272799;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.instra-img {
+    display: flex;
+    margin-top: 45px;
+    gap: 25px;
+    padding: 25px 50px;
+}
+
+.letest-del {
+    background: url('../Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    padding: 120px 290px;
+    margin-top: 128;
+    margin-bottom: 128;
+    margin-left: 250;
+    margin-right: 250;
+}
+
+.letest-del-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.letest-del-description {
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.input input[type=email] {
+    display: flex;
+    border-radius: 8px;
+    background: #FFFF;
+    padding: 22px 200px 22px 22px;
+    border: 0px; 
+}
+
